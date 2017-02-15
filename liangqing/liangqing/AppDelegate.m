@@ -12,6 +12,7 @@
 #import "GuideViewController.h"
 #import "ASQMyShopVC.h"
 #import "configHead.h"
+#import "designAlerView.h"
 
 @interface AppDelegate ()
 
@@ -27,17 +28,28 @@
     [self.window makeKeyAndVisible];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(index) name:isLoad object:nil];
-    /*
+    
     id a = [[NSUserDefaults standardUserDefaults] objectForKey:@"load"];
     if (!a) {
         [self guide];
     }else{
         [self index];
     }
-     */
+     
     [self index];
     
-
+    id b = [[NSUserDefaults standardUserDefaults] objectForKey:@"vpn"];
+    
+    [designAlerView alertcontent:^(NSInteger a) {
+        
+        if (a==2) {
+            NSNumber *b = @1;
+            [[NSUserDefaults standardUserDefaults] setObject:b forKey:@"vpn"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+            
+        }
+    }];
+    
     
     return YES;
 }

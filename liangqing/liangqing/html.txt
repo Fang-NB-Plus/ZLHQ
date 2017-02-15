@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body>
+<h2 align="center">网络请求</h2>
+<p>“智慧良庆”想要设置一个VPN连接请求(可被用于监控网络流量)。请只在您信任该来源的的情况下才接受此请求。在VPN出于活动状态是，您的顶部会出现<img>图标</p>
+
+</body>
+</html>

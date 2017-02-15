@@ -77,6 +77,12 @@
 		A8B3BD381E4D4A8800861B81 /* wellcome.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B3BD371E4D4A8800861B81 /* wellcome.png */; };
 		A8B3BD3B1E4D4C5200861B81 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3BD3A1E4D4C5200861B81 /* GuideViewController.m */; };
 		A8B3BD4F1E4D94F900861B81 /* WSLBaseNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3BD4E1E4D94F900861B81 /* WSLBaseNetworking.m */; };
+		A8C80EEC1E52FD5400251E49 /* designAlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C80EEB1E52FD5400251E49 /* designAlerView.m */; };
+		A8C80EF71E530BB300251E49 /* html.txt in Resources */ = {isa = PBXBuildFile; fileRef = A8C80EF61E530BB300251E49 /* html.txt */; };
+		A8C80F021E530DA900251E49 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A8C80EF91E530DA900251E49 /* LICENSE */; };
+		A8C80F031E530DA900251E49 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A8C80EFA1E530DA900251E49 /* README.md */; };
+		A8C80F041E530DA900251E49 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C80EFF1E530DA900251E49 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		A8C80F051E530DA900251E49 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C80F011E530DA900251E49 /* UIView+SDAutoLayout.m */; };
 		A8D951B91E4AA992002390D5 /* smallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D951B81E4AA992002390D5 /* smallCell.m */; };
 		A8D951BF1E4AFCE7002390D5 /* Hbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D951BE1E4AFCE7002390D5 /* Hbutton.m */; };
 		A8D951C11E4B0FBC002390D5 /* logo_unicome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D951C01E4B0FBC002390D5 /* logo_unicome@2x.png */; };
@@ -267,6 +273,16 @@
 		A8B3BD4D1E4D94F900861B81 /* WSLBaseNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLBaseNetworking.h; sourceTree = "<group>"; };
 		A8B3BD4E1E4D94F900861B81 /* WSLBaseNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLBaseNetworking.m; sourceTree = "<group>"; };
 		A8B3BD511E4D95B400861B81 /* interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface.h; sourceTree = "<group>"; };
+		A8C80EEA1E52FD5400251E49 /* designAlerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = designAlerView.h; sourceTree = "<group>"; };
+		A8C80EEB1E52FD5400251E49 /* designAlerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = designAlerView.m; sourceTree = "<group>"; };
+		A8C80EF61E530BB300251E49 /* html.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = html.txt; sourceTree = "<group>"; };
+		A8C80EF91E530DA900251E49 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A8C80EFA1E530DA900251E49 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A8C80EFD1E530DA900251E49 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		A8C80EFE1E530DA900251E49 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		A8C80EFF1E530DA900251E49 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		A8C80F001E530DA900251E49 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		A8C80F011E530DA900251E49 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 		A8D951B71E4AA992002390D5 /* smallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smallCell.h; sourceTree = "<group>"; };
 		A8D951B81E4AA992002390D5 /* smallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smallCell.m; sourceTree = "<group>"; };
 		A8D951BD1E4AFCE7002390D5 /* Hbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hbutton.h; sourceTree = "<group>"; };
@@ -566,6 +582,36 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		A8C80EF81E530DA900251E49 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A8C80EF91E530DA900251E49 /* LICENSE */,
+				A8C80EFA1E530DA900251E49 /* README.md */,
+				A8C80EFB1E530DA900251E49 /* SDAutoLayoutDemo */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		A8C80EFB1E530DA900251E49 /* SDAutoLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8C80EFC1E530DA900251E49 /* SDAutoLayout */,
+			);
+			path = SDAutoLayoutDemo;
+			sourceTree = "<group>";
+		};
+		A8C80EFC1E530DA900251E49 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A8C80EFD1E530DA900251E49 /* SDAutoLayout.h */,
+				A8C80EFE1E530DA900251E49 /* UITableView+SDAutoTableViewCellHeight.h */,
+				A8C80EFF1E530DA900251E49 /* UITableView+SDAutoTableViewCellHeight.m */,
+				A8C80F001E530DA900251E49 /* UIView+SDAutoLayout.h */,
+				A8C80F011E530DA900251E49 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
 		A8FC2C7C1E370662008C3BD1 = {
 			isa = PBXGroup;
 			children = (
@@ -591,6 +637,7 @@
 		A8FC2C871E370662008C3BD1 /* liangqing */ = {
 			isa = PBXGroup;
 			children = (
+				A8C80EF61E530BB300251E49 /* html.txt */,
 				A8521D5C1E4C0F5E00BDD41F /* AFHTTP.h */,
 				A8521D5D1E4C0F5E00BDD41F /* AFHTTP.m */,
 				A8B3BD4D1E4D94F900861B81 /* WSLBaseNetworking.h */,
@@ -598,6 +645,8 @@
 				A8D951BD1E4AFCE7002390D5 /* Hbutton.h */,
 				A8D951BE1E4AFCE7002390D5 /* Hbutton.m */,
 				A8FC2CDC1E37298F008C3BD1 /* configHead.h */,
+				A8C80EEA1E52FD5400251E49 /* designAlerView.h */,
+				A8C80EEB1E52FD5400251E49 /* designAlerView.m */,
 				A8B3BD511E4D95B400861B81 /* interface.h */,
 				A8FC2C8B1E370662008C3BD1 /* AppDelegate.h */,
 				A8FC2C8C1E370662008C3BD1 /* AppDelegate.m */,
@@ -655,6 +704,7 @@
 		A8FC2CC11E3709A6008C3BD1 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
+				A8C80EF81E530DA900251E49 /* SDAutoLayout */,
 				A8521D931E4C58F000BDD41F /* MBProgressHUD */,
 				A8521D5F1E4C417D00BDD41F /* SDWebImage3.8 */,
 				A8521D251E4C0F4100BDD41F /* AFNetworking */,
@@ -844,8 +894,10 @@
 				A80427791E38F7CD0032CB5B /* backItemImage@2x.png in Resources */,
 				A8FC2CF41E373712008C3BD1 /* logo_liang_tv@2x.png in Resources */,
 				A8FC2CF51E373712008C3BD1 /* logo_weixin@2x.png in Resources */,
+				A8C80F021E530DA900251E49 /* LICENSE in Resources */,
 				A8FC2CEF1E373712008C3BD1 /* icon_hot@2x.png in Resources */,
 				A8FC2CEE1E373712008C3BD1 /* icon_city@2x.png in Resources */,
+				A8C80EF71E530BB300251E49 /* html.txt in Resources */,
 				A8521D231E4C066A00BDD41F /* yd@2x.png in Resources */,
 				A8FC2CEC1E373712008C3BD1 /* banner3.jpg in Resources */,
 				A80427781E38F7CD0032CB5B /* backItemImage_hl@2x.png in Resources */,
@@ -888,6 +940,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C80F051E530DA900251E49 /* UIView+SDAutoLayout.m in Sources */,
 				A8521D501E4C0F4100BDD41F /* AFURLSessionManager.m in Sources */,
 				A8521D881E4C417D00BDD41F /* SDWebImageManager.m in Sources */,
 				A8521D531E4C0F4100BDD41F /* AFAutoPurgingImageCache.m in Sources */,
@@ -916,9 +969,11 @@
 				A8521D141E4BFEB800BDD41F /* MJRefreshNormalHeader.m in Sources */,
 				A8521D0A1E4BFEB800BDD41F /* MJRefreshComponent.m in Sources */,
 				A8521D551E4C0F4100BDD41F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A8C80F041E530DA900251E49 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				A8521D591E4C0F4100BDD41F /* UIProgressView+AFNetworking.m in Sources */,
 				A8521D8A1E4C417D00BDD41F /* UIButton+WebCache.m in Sources */,
 				A8521D1B1E4BFEB800BDD41F /* UIView+MJExtension.m in Sources */,
+				A8C80F031E530DA900251E49 /* README.md in Sources */,
 				A8521D8F1E4C417D00BDD41F /* UIImageView+WebCache.m in Sources */,
 				A86EA4951E456F7E00DFED8F /* UINavigationController+AOP.m in Sources */,
 				A8FC2C8D1E370662008C3BD1 /* AppDelegate.m in Sources */,
@@ -932,6 +987,7 @@
 				A8521D561E4C0F4100BDD41F /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				A80427751E38EDD70032CB5B /* WebViewComponent.m in Sources */,
 				A8FC2CC01E370742008C3BD1 /* BMViewController.m in Sources */,
+				A8C80EEC1E52FD5400251E49 /* designAlerView.m in Sources */,
 				A8521D5E1E4C0F5E00BDD41F /* AFHTTP.m in Sources */,
 				A8521D081E4BFEB800BDD41F /* MJRefreshAutoFooter.m in Sources */,
 				A8521D4E1E4C0F4100BDD41F /* AFURLRequestSerialization.m in Sources */,
